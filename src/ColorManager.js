@@ -6,14 +6,14 @@ class ColorManager {
   reset() {
     this._colors = {
       [COLOR_ID_BACKGROUND]: {
-        r: 0,
-        g: 102,
-        b: 255
+        r: 300,
+        g: 0,
+        b: 0
       },
       [COLOR_ID_GROUND]: {
-        r: 0,
-        g: 68,
-        b: 170
+        r: 300,
+        g: 0,
+        b: 0
       }
     };
     this._actions = {};
